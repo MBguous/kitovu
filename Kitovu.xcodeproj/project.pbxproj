@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DCBF8F41C50B25F000A6408 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCBF8F31C50B25F000A6408 /* AppDelegate.swift */; };
+		3DCBF8F61C50B25F000A6408 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCBF8F51C50B25F000A6408 /* ViewController.swift */; };
+		3DCBF8F91C50B25F000A6408 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DCBF8F71C50B25F000A6408 /* Main.storyboard */; };
+		3DCBF8FB1C50B25F000A6408 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DCBF8FA1C50B25F000A6408 /* Assets.xcassets */; };
+		3DCBF8FE1C50B25F000A6408 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DCBF8FC1C50B25F000A6408 /* LaunchScreen.storyboard */; };
+		3DCBF9091C50B25F000A6408 /* KitovuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCBF9081C50B25F000A6408 /* KitovuTests.swift */; };
+		3DCBF9141C50B25F000A6408 /* KitovuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCBF9131C50B25F000A6408 /* KitovuUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DCBF9051C50B25F000A6408 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DCBF8E81C50B25E000A6408 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DCBF8EF1C50B25E000A6408;
+			remoteInfo = Kitovu;
+		};
+		3DCBF9101C50B25F000A6408 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DCBF8E81C50B25E000A6408 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DCBF8EF1C50B25E000A6408;
+			remoteInfo = Kitovu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3DCBF8F01C50B25F000A6408 /* Kitovu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kitovu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DCBF8F31C50B25F000A6408 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3DCBF8F51C50B25F000A6408 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3DCBF8F81C50B25F000A6408 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3DCBF8FA1C50B25F000A6408 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DCBF8FD1C50B25F000A6408 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3DCBF8FF1C50B25F000A6408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DCBF9041C50B25F000A6408 /* KitovuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KitovuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DCBF9081C50B25F000A6408 /* KitovuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitovuTests.swift; sourceTree = "<group>"; };
+		3DCBF90A1C50B25F000A6408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DCBF90F1C50B25F000A6408 /* KitovuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KitovuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DCBF9131C50B25F000A6408 /* KitovuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitovuUITests.swift; sourceTree = "<group>"; };
+		3DCBF9151C50B25F000A6408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DCBF8ED1C50B25E000A6408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DCBF9011C50B25F000A6408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DCBF90C1C50B25F000A6408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DCBF8E71C50B25E000A6408 = {
+			isa = PBXGroup;
+			children = (
+				3DCBF8F21C50B25F000A6408 /* Kitovu */,
+				3DCBF9071C50B25F000A6408 /* KitovuTests */,
+				3DCBF9121C50B25F000A6408 /* KitovuUITests */,
+				3DCBF8F11C50B25F000A6408 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DCBF8F11C50B25F000A6408 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DCBF8F01C50B25F000A6408 /* Kitovu.app */,
+				3DCBF9041C50B25F000A6408 /* KitovuTests.xctest */,
+				3DCBF90F1C50B25F000A6408 /* KitovuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DCBF8F21C50B25F000A6408 /* Kitovu */ = {
+			isa = PBXGroup;
+			children = (
+				3DCBF8F31C50B25F000A6408 /* AppDelegate.swift */,
+				3DCBF8F51C50B25F000A6408 /* ViewController.swift */,
+				3DCBF8F71C50B25F000A6408 /* Main.storyboard */,
+				3DCBF8FA1C50B25F000A6408 /* Assets.xcassets */,
+				3DCBF8FC1C50B25F000A6408 /* LaunchScreen.storyboard */,
+				3DCBF8FF1C50B25F000A6408 /* Info.plist */,
+			);
+			path = Kitovu;
+			sourceTree = "<group>";
+		};
+		3DCBF9071C50B25F000A6408 /* KitovuTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DCBF9081C50B25F000A6408 /* KitovuTests.swift */,
+				3DCBF90A1C50B25F000A6408 /* Info.plist */,
+			);
+			path = KitovuTests;
+			sourceTree = "<group>";
+		};
+		3DCBF9121C50B25F000A6408 /* KitovuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3DCBF9131C50B25F000A6408 /* KitovuUITests.swift */,
+				3DCBF9151C50B25F000A6408 /* Info.plist */,
+			);
+			path = KitovuUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DCBF8EF1C50B25E000A6408 /* Kitovu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DCBF9181C50B25F000A6408 /* Build configuration list for PBXNativeTarget "Kitovu" */;
+			buildPhases = (
+				3DCBF8EC1C50B25E000A6408 /* Sources */,
+				3DCBF8ED1C50B25E000A6408 /* Frameworks */,
+				3DCBF8EE1C50B25E000A6408 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kitovu;
+			productName = Kitovu;
+			productReference = 3DCBF8F01C50B25F000A6408 /* Kitovu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DCBF9031C50B25F000A6408 /* KitovuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DCBF91B1C50B25F000A6408 /* Build configuration list for PBXNativeTarget "KitovuTests" */;
+			buildPhases = (
+				3DCBF9001C50B25F000A6408 /* Sources */,
+				3DCBF9011C50B25F000A6408 /* Frameworks */,
+				3DCBF9021C50B25F000A6408 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DCBF9061C50B25F000A6408 /* PBXTargetDependency */,
+			);
+			name = KitovuTests;
+			productName = KitovuTests;
+			productReference = 3DCBF9041C50B25F000A6408 /* KitovuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3DCBF90E1C50B25F000A6408 /* KitovuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DCBF91E1C50B25F000A6408 /* Build configuration list for PBXNativeTarget "KitovuUITests" */;
+			buildPhases = (
+				3DCBF90B1C50B25F000A6408 /* Sources */,
+				3DCBF90C1C50B25F000A6408 /* Frameworks */,
+				3DCBF90D1C50B25F000A6408 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DCBF9111C50B25F000A6408 /* PBXTargetDependency */,
+			);
+			name = KitovuUITests;
+			productName = KitovuUITests;
+			productReference = 3DCBF90F1C50B25F000A6408 /* KitovuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DCBF8E81C50B25E000A6408 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Techno Troop";
+				TargetAttributes = {
+					3DCBF8EF1C50B25E000A6408 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					3DCBF9031C50B25F000A6408 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 3DCBF8EF1C50B25E000A6408;
+					};
+					3DCBF90E1C50B25F000A6408 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 3DCBF8EF1C50B25E000A6408;
+					};
+				};
+			};
+			buildConfigurationList = 3DCBF8EB1C50B25E000A6408 /* Build configuration list for PBXProject "Kitovu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DCBF8E71C50B25E000A6408;
+			productRefGroup = 3DCBF8F11C50B25F000A6408 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DCBF8EF1C50B25E000A6408 /* Kitovu */,
+				3DCBF9031C50B25F000A6408 /* KitovuTests */,
+				3DCBF90E1C50B25F000A6408 /* KitovuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DCBF8EE1C50B25E000A6408 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DCBF8FE1C50B25F000A6408 /* LaunchScreen.storyboard in Resources */,
+				3DCBF8FB1C50B25F000A6408 /* Assets.xcassets in Resources */,
+				3DCBF8F91C50B25F000A6408 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DCBF9021C50B25F000A6408 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DCBF90D1C50B25F000A6408 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DCBF8EC1C50B25E000A6408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DCBF8F61C50B25F000A6408 /* ViewController.swift in Sources */,
+				3DCBF8F41C50B25F000A6408 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DCBF9001C50B25F000A6408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DCBF9091C50B25F000A6408 /* KitovuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DCBF90B1C50B25F000A6408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DCBF9141C50B25F000A6408 /* KitovuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DCBF9061C50B25F000A6408 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DCBF8EF1C50B25E000A6408 /* Kitovu */;
+			targetProxy = 3DCBF9051C50B25F000A6408 /* PBXContainerItemProxy */;
+		};
+		3DCBF9111C50B25F000A6408 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DCBF8EF1C50B25E000A6408 /* Kitovu */;
+			targetProxy = 3DCBF9101C50B25F000A6408 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3DCBF8F71C50B25F000A6408 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DCBF8F81C50B25F000A6408 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3DCBF8FC1C50B25F000A6408 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DCBF8FD1C50B25F000A6408 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DCBF9161C50B25F000A6408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3DCBF9171C50B25F000A6408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DCBF9191C50B25F000A6408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Kitovu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.technotroop.mahesh.Kitovu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3DCBF91A1C50B25F000A6408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Kitovu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.technotroop.mahesh.Kitovu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3DCBF91C1C50B25F000A6408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KitovuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.technotroop.mahesh.KitovuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kitovu.app/Kitovu";
+			};
+			name = Debug;
+		};
+		3DCBF91D1C50B25F000A6408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KitovuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.technotroop.mahesh.KitovuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kitovu.app/Kitovu";
+			};
+			name = Release;
+		};
+		3DCBF91F1C50B25F000A6408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KitovuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.technotroop.mahesh.KitovuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Kitovu;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3DCBF9201C50B25F000A6408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KitovuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.technotroop.mahesh.KitovuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Kitovu;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DCBF8EB1C50B25E000A6408 /* Build configuration list for PBXProject "Kitovu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DCBF9161C50B25F000A6408 /* Debug */,
+				3DCBF9171C50B25F000A6408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DCBF9181C50B25F000A6408 /* Build configuration list for PBXNativeTarget "Kitovu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DCBF9191C50B25F000A6408 /* Debug */,
+				3DCBF91A1C50B25F000A6408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3DCBF91B1C50B25F000A6408 /* Build configuration list for PBXNativeTarget "KitovuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DCBF91C1C50B25F000A6408 /* Debug */,
+				3DCBF91D1C50B25F000A6408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3DCBF91E1C50B25F000A6408 /* Build configuration list for PBXNativeTarget "KitovuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DCBF91F1C50B25F000A6408 /* Debug */,
+				3DCBF9201C50B25F000A6408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DCBF8E81C50B25E000A6408 /* Project object */;
+}
